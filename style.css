@@ -1,7 +1,7 @@
 
 .projects {
   margin: auto;
-  width: 50%;
+  width: 48%;
   
 }
 fieldset { 
@@ -87,6 +87,9 @@ button {
     float: right;
     display: block;
   }
+  .projects {
+    width:96%;
+  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -101,6 +104,9 @@ button {
     float: none;
     display: block;
     text-align: left;
+  }
+  .projects {
+    width:48%;
   }
 }
 .card-container {
