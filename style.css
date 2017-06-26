@@ -1,8 +1,8 @@
 
 .projects {
   margin: auto;
-
-  
+  float:left;
+  display: inline;
 }
 fieldset { 
     display: block;
@@ -88,7 +88,7 @@ button {
     display: block;
   }
   .projects {
-    width:96%;
+    width:98%;
   }
 }
 
@@ -106,7 +106,7 @@ button {
     text-align: left;
   }
   .projects {
-    width:48%;
+    width:98%;
   }
 }
 .card-container {
