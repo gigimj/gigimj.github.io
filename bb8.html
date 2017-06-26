@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <script src="projects.js"></script>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="bb8.html">BB8</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+<html>
+
+<head>
+
+</head>
+
+<body onload="start();">
+  
+
+  <br>
+  <br>
+  <h2 style="text-align:center; font-size:30px;"> BB8 </h2>
+<br>
+      <button href="#" type="button" class="button" id="left" onclick="left();"><</button>
+    
+      <button href="#" type="button" class="button" id="right" onclick="right();">></button>
+        
+  <div style="width:80%; margin:auto" >
+    <div id="1">
+      <div class="card-container" >
+        <div class="card">
+          <div class="side"><img src="https://bb8builders.files.wordpress.com/2016/07/img_1052.jpg" style="width:100%"></div>
+          <div class="back"><div class="text">The whole BB8 will be controlled by a DX4e transmitter. The signals get received by an R615X receiver. The whole thing is on 2.4 ghz. There is an Arduino connected to the receiver to read the PWM coming out of it. </div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="2" style="display:none">
+      <div class="card-container">
+        <div class="card">
+          <div class="side"><img src="https://bb8builders.files.wordpress.com/2016/07/img_1050.jpg" style="width:100%"></div>
+          <div class="back"><div class="text">Today we were making the battery packs that will power the wheels of BB8. We found an stl file on thingiverse and printed it out on our 3D printer. We striped wires to hook up the batteries. Unfortunately Reuben hooked up the black wires as positive. Black wires are normally negative. </div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3" style="display:none">
+      <div class="card-container">
+        <div class="card">
+          <div class="side"><img src="https://bb8builders.files.wordpress.com/2016/07/friedhbridge.jpg" style="width:100%"></div>
+          <div class="back"><div class="text">While testing our DIY 3d printed 8s battery pack, we encountered a small problem; our H-bridge exploded.  This happened because we used 20 volts and four amps and it can only take one amp.  Lucky we still have a spare!</div></div>
+        </div>
+      </div>
+    </div>
+    <br>
+    
+  </div>
+</body>
+
+</html>
